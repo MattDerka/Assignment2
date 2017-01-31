@@ -7,6 +7,8 @@ public class VendingMachineFactory : IVendingMachineFactory {
 
     public int CreateVendingMachine(List<int> coinKinds, int selectionButtonCount, int coinRackCapacity, int popRackCapcity, int receptacleCapacity) {
         // TODO: Implement
+
+        Console.WriteLine("fi");
         return 0;
     }
 
