@@ -5,15 +5,23 @@ using Frontend2.Hardware;
 
 public class VendingMachineFactory : IVendingMachineFactory {
 
+    static int counter = 0;
+    List<VendingMachine> vendingMachines = new List<VendingMachine>();
+
     public int CreateVendingMachine(List<int> coinKinds, int selectionButtonCount, int coinRackCapacity, int popRackCapcity, int receptacleCapacity) {
         // TODO: Implement
+        var test = coinKinds.ToArray();
+        vendingMachines.Add(new VendingMachine(test, selectionButtonCount, coinRackCapacity, popRackCapcity, receptacleCapacity));
 
-        Console.WriteLine("fi");
-        return 0;
+        counter++;
+        return counter;
     }
 
     public void ConfigureVendingMachine(int vmIndex, List<string> popNames, List<int> popCosts) {
         // TODO: Implement
+
+        VendingMachine var = vendingMachines[vmIndex];
+        var.Configure(popNames, popCosts);
     }
 
     public void LoadCoins(int vmIndex, int coinKindIndex, List<Coin> coins) {
