@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Collections;
 using Frontend2;
 using Frontend2.Hardware;
 
@@ -9,7 +10,7 @@ public class VendingMachineFactory : IVendingMachineFactory {
     List<VendingMachine> vendingMachines = new List<VendingMachine>();
 
     public int CreateVendingMachine(List<int> coinKinds, int selectionButtonCount, int coinRackCapacity, int popRackCapcity, int receptacleCapacity) {
-        // TODO: Implement
+
         var test = coinKinds.ToArray();
         vendingMachines.Add(new VendingMachine(test, selectionButtonCount, coinRackCapacity, popRackCapcity, receptacleCapacity));
 
@@ -18,7 +19,6 @@ public class VendingMachineFactory : IVendingMachineFactory {
     }
 
     public void ConfigureVendingMachine(int vmIndex, List<string> popNames, List<int> popCosts) {
-        // TODO: Implement
 
         VendingMachine var = vendingMachines[vmIndex];
         var.Configure(popNames, popCosts);
@@ -26,6 +26,16 @@ public class VendingMachineFactory : IVendingMachineFactory {
 
     public void LoadCoins(int vmIndex, int coinKindIndex, List<Coin> coins) {
         // TODO: Implement
+
+        VendingMachine var = vendingMachines[vmIndex];
+        int[] temp = new int[coins.Count];
+
+        foreach(var i in coins)
+        {
+            temp[0] = i.Value;
+        }
+
+        var.LoadCoins(temp);
     }
 
     public void LoadPops(int vmIndex, int popKindIndex, List<PopCan> pops) {
