@@ -22,20 +22,16 @@ public class VendingMachineFactory : IVendingMachineFactory {
 
         VendingMachine var = vendingMachines[vmIndex];
         var.Configure(popNames, popCosts);
+
+
     }
+
 
     public void LoadCoins(int vmIndex, int coinKindIndex, List<Coin> coins) {
         // TODO: Implement
 
         VendingMachine var = vendingMachines[vmIndex];
-        int[] temp = new int[coins.Count];
 
-        foreach(var i in coins)
-        {
-            temp[0] = i.Value;
-        }
-
-        var.LoadCoins(temp);
     }
 
     public void LoadPops(int vmIndex, int popKindIndex, List<PopCan> pops) {
