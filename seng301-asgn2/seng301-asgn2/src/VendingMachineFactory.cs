@@ -39,8 +39,8 @@ public class VendingMachineFactory : IVendingMachineFactory {
         // TODO: Implement
 
         VendingMachine var = vendingMachines[vmIndex];
-
-        var popKind = var.PopCanRacks
+        var a = var.PopCanRacks;
+        a[popKindIndex].LoadPops(pops);
     }
 
     public void InsertCoin(int vmIndex, Coin coin) {
