@@ -59,16 +59,29 @@ public class VendingMachineFactory : IVendingMachineFactory {
         VendingMachine var = vendingMachines[vmIndex];
         var.SelectionButtons[value].Press();
         var.SelectionButtons[value].Pressed += new EventHandler(temp.printButtonPressed);
+
+        var temp2 = var.PopCanRacks;
+        temp2[value].DispensePopCan();
     }
 
 
     public List<IDeliverable> ExtractFromDeliveryChute(int vmIndex) {
         // TODO: Implement
-        return new List<IDeliverable>();
+
+        VendingMachine var = vendingMachines[vmIndex];
+        var temp = var.DeliveryChute;
+        List<IDeliverable> temp2 = new List<IDeliverable>(temp.RemoveItems());
+
+        return temp2;
+
     }
 
     public VendingMachineStoredContents UnloadVendingMachine(int vmIndex) {
         // TODO: Implement
+
+        VendingMachine var = vendingMachines[vmIndex];
+
+
         return new VendingMachineStoredContents();
     }
 }
