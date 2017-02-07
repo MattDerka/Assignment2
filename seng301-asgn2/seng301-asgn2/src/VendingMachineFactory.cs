@@ -23,7 +23,6 @@ public class VendingMachineFactory : IVendingMachineFactory {
         VendingMachine var = vendingMachines[vmIndex];
         var.Configure(popNames, popCosts);
 
-
     }
 
 
@@ -32,10 +31,16 @@ public class VendingMachineFactory : IVendingMachineFactory {
 
         VendingMachine var = vendingMachines[vmIndex];
 
+        int coinKind = var.GetCoinKindForCoinRack(coinKindIndex);
+        var.GetCoinRackForCoinKind(coinKind).LoadCoins(coins);
     }
 
     public void LoadPops(int vmIndex, int popKindIndex, List<PopCan> pops) {
         // TODO: Implement
+
+        VendingMachine var = vendingMachines[vmIndex];
+
+        var popKind = var.PopCanRacks
     }
 
     public void InsertCoin(int vmIndex, Coin coin) {

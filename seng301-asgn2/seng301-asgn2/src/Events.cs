@@ -12,6 +12,6 @@ namespace seng301_asgn2
     {
         public event EventHandler ButtonPressed;
 
-        public 
+
     }
 }
