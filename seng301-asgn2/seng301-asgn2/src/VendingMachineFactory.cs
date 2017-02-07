@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections;
 using Frontend2;
 using Frontend2.Hardware;
+using seng301_asgn2;
 
 public class VendingMachineFactory : IVendingMachineFactory {
 
@@ -45,6 +46,10 @@ public class VendingMachineFactory : IVendingMachineFactory {
 
     public void InsertCoin(int vmIndex, Coin coin) {
         // TODO: Implement
+
+        VendingMachine var = vendingMachines[vmIndex];
+        var a = var.CoinSlot;
+        a.AddCoin(coin);
     }
 
     public void PressButton(int vmIndex, int value) {

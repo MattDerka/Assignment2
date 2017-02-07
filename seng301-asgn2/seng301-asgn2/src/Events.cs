@@ -10,8 +10,10 @@ namespace seng301_asgn2
 {
     class Events : EventArgs
     {
-        public event EventHandler ButtonPressed;
-
+        public void printCoinAccepted(object sender, CoinEventArgs e)
+        {
+            Console.WriteLine("Coin Slot accepted coin");
+        }
 
     }
 }
