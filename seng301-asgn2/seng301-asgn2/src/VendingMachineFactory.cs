@@ -46,24 +46,21 @@ public class VendingMachineFactory : IVendingMachineFactory {
 
     public void InsertCoin(int vmIndex, Coin coin) {
         // TODO: Implement
-
+        Events temp = new Events();
         VendingMachine var = vendingMachines[vmIndex];
         var a = var.CoinSlot;
         a.AddCoin(coin);
+        var.CoinSlot.CoinAccepted += new EventHandler<CoinEventArgs>(temp.printCoinAccepted);
     }
 
     public void PressButton(int vmIndex, int value) {
         // TODO: Implement
-
+        Events temp = new Events();
         VendingMachine var = vendingMachines[vmIndex];
         var.SelectionButtons[value].Press();
-        var.SelectionButtons[value].Pressed += new EventHandler<ISelectionButton>(printButtonPressed);
+        var.SelectionButtons[value].Pressed += new EventHandler(temp.printButtonPressed);
     }
 
-    private void printButtonPressed(object sender, ISelectionButton e)
-    {
-        Console.WriteLine("Button pressed");
-    }
 
     public List<IDeliverable> ExtractFromDeliveryChute(int vmIndex) {
         // TODO: Implement

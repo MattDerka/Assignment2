@@ -15,5 +15,10 @@ namespace seng301_asgn2
             Console.WriteLine("Coin Slot accepted coin");
         }
 
+        public void printButtonPressed(object sender, EventArgs e)
+        {
+            Console.WriteLine("Button pressed");
+        }
+
     }
 }
