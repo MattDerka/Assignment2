@@ -54,6 +54,15 @@ public class VendingMachineFactory : IVendingMachineFactory {
 
     public void PressButton(int vmIndex, int value) {
         // TODO: Implement
+
+        VendingMachine var = vendingMachines[vmIndex];
+        var.SelectionButtons[value].Press();
+        var.SelectionButtons[value].Pressed += new EventHandler<ISelectionButton>(printButtonPressed);
+    }
+
+    private void printButtonPressed(object sender, ISelectionButton e)
+    {
+        Console.WriteLine("Button pressed");
     }
 
     public List<IDeliverable> ExtractFromDeliveryChute(int vmIndex) {
