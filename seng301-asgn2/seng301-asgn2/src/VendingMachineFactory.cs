@@ -46,11 +46,14 @@ public class VendingMachineFactory : IVendingMachineFactory {
 
     public void InsertCoin(int vmIndex, Coin coin) {
         // TODO: Implement
-        Events temp = new Events();
         VendingMachine var = vendingMachines[vmIndex];
+        Events temp = new Events(var);
         var a = var.CoinSlot;
+
         a.AddCoin(coin);
+
         var.CoinSlot.CoinAccepted += new EventHandler<CoinEventArgs>(temp.printCoinAccepted);
+        var.CoinSlot.CoinRejected += new EventHandler<CoinEventArgs>(temp.CoinRejected);
     }
 
     public void PressButton(int vmIndex, int value) {
@@ -60,19 +63,19 @@ public class VendingMachineFactory : IVendingMachineFactory {
         var.SelectionButtons[value].Press();
         var.SelectionButtons[value].Pressed += new EventHandler(temp.printButtonPressed);
 
-        var temp2 = var.PopCanRacks;
-        temp2[value].DispensePopCan();
+       // var temp2 = var.PopCanRacks;
+        //temp2[value].DispensePopCan();
     }
 
 
     public List<IDeliverable> ExtractFromDeliveryChute(int vmIndex) {
         // TODO: Implement
 
-        VendingMachine var = vendingMachines[vmIndex];
-        var temp = var.DeliveryChute;
-        List<IDeliverable> temp2 = new List<IDeliverable>(temp.RemoveItems());
-
-        return temp2;
+        //  VendingMachine var = vendingMachines[vmIndex];
+        //var temp = var.DeliveryChute;
+        // List<IDeliverable> temp2 = new List<IDeliverable>(temp.RemoveItems());
+        return new List<IDeliverable>();
+       // return temp2;
 
     }
 
