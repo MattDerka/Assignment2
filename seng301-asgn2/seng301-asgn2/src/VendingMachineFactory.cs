@@ -43,7 +43,7 @@ public class VendingMachineFactory : IVendingMachineFactory {
         var a = var.PopCanRacks;
         a[popKindIndex].LoadPops(pops);
     }
-
+    int temp2 = 0;
     public void InsertCoin(int vmIndex, Coin coin) {
         // TODO: Implement
         VendingMachine var = vendingMachines[vmIndex];
@@ -51,31 +51,41 @@ public class VendingMachineFactory : IVendingMachineFactory {
         var a = var.CoinSlot;
 
         a.AddCoin(coin);
-
-        var.CoinSlot.CoinAccepted += new EventHandler<CoinEventArgs>(temp.printCoinAccepted);
-        var.CoinSlot.CoinRejected += new EventHandler<CoinEventArgs>(temp.CoinRejected);
+        temp2 += coin.Value;
+        
+        var.CoinSlot.CoinAccepted += new EventHandler<CoinEventArgs>(temp.CoinAccepted);
+        
     }
 
     public void PressButton(int vmIndex, int value) {
         // TODO: Implement
-        Events temp = new Events();
         VendingMachine var = vendingMachines[vmIndex];
+        Events temp = new Events(var);
         var.SelectionButtons[value].Press();
         var.SelectionButtons[value].Pressed += new EventHandler(temp.printButtonPressed);
 
-       // var temp2 = var.PopCanRacks;
-        //temp2[value].DispensePopCan();
+        if(var.CoinReceptacle.Count == 0)
+        {
+            Console.WriteLine("empty");
+        }
+
+        var temp2 = var.PopCanRacks;
+        temp2[value].DispensePopCan();
+        
+
+        var.CoinRacks[2].ReleaseCoin();
+        var.CoinRacks[2].ReleaseCoin();
     }
 
 
     public List<IDeliverable> ExtractFromDeliveryChute(int vmIndex) {
         // TODO: Implement
 
-        //  VendingMachine var = vendingMachines[vmIndex];
+       // VendingMachine var = vendingMachines[vmIndex];
         //var temp = var.DeliveryChute;
-        // List<IDeliverable> temp2 = new List<IDeliverable>(temp.RemoveItems());
+        //List<IDeliverable> temp2 = new List<IDeliverable>(temp.RemoveItems());
         return new List<IDeliverable>();
-       // return temp2;
+        //return temp2;
 
     }
 
@@ -83,7 +93,6 @@ public class VendingMachineFactory : IVendingMachineFactory {
         // TODO: Implement
 
         VendingMachine var = vendingMachines[vmIndex];
-
 
         return new VendingMachineStoredContents();
     }

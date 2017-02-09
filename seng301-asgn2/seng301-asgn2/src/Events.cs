@@ -22,11 +22,16 @@ namespace seng301_asgn2
             this.a = a;
         }
 
-        public void printCoinAccepted(object sender, CoinEventArgs e)
+        public void CoinAccepted(object sender, CoinEventArgs e)
         {
             Console.WriteLine("Coin Slot accepted coin");
             a.CoinReceptacle.StoreCoins();
-           // a.CoinReceptacle.CoinsRemoved += new EventHandler(coinsRemoved);
+            a.CoinReceptacle.ReceptacleFull += CoinReceptacle_ReceptacleFull;
+        }
+
+        public void CoinReceptacle_ReceptacleFull(object sender, EventArgs e)
+        {
+            a.StorageBin.StoreCoins();
         }
 
         private void coinsRemoved(object sender, EventArgs e)
@@ -34,11 +39,7 @@ namespace seng301_asgn2
             Console.WriteLine("coins removed from recep");
         }
 
-        public void CoinRejected(object sender, CoinEventArgs e)
-        {
-            Console.WriteLine("Coin slot rejected coin");
-            a.CoinReceptacle.ReturnCoins();
-        }
+
 
         public void printButtonPressed(object sender, EventArgs e)
         {
