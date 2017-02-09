@@ -43,49 +43,52 @@ public class VendingMachineFactory : IVendingMachineFactory {
         var a = var.PopCanRacks;
         a[popKindIndex].LoadPops(pops);
     }
-    int temp2 = 0;
+
+    int total = 0;
     public void InsertCoin(int vmIndex, Coin coin) {
         // TODO: Implement
         VendingMachine var = vendingMachines[vmIndex];
         Events temp = new Events(var);
+
+        total += coin.Value;
         var a = var.CoinSlot;
 
-        a.AddCoin(coin);
-        temp2 += coin.Value;
-        
+
         var.CoinSlot.CoinAccepted += new EventHandler<CoinEventArgs>(temp.CoinAccepted);
-        
+        a.AddCoin(coin);
+               
     }
 
     public void PressButton(int vmIndex, int value) {
         // TODO: Implement
         VendingMachine var = vendingMachines[vmIndex];
         Events temp = new Events(var);
-        var.SelectionButtons[value].Press();
-        var.SelectionButtons[value].Pressed += new EventHandler(temp.printButtonPressed);
 
-        if(var.CoinReceptacle.Count == 0)
+        var.SelectionButtons[value].Pressed += new EventHandler(temp.printButtonPressed);
+        var.SelectionButtons[value].Press();
+
+        if(var.CoinReceptacle.Count != 0 && total >= var.PopCanCosts[value])
         {
-            Console.WriteLine("empty");
+                
+            var temp2 = var.PopCanRacks;
+            temp2[value].DispensePopCan();
+
+
+            var.CoinRacks[2].ReleaseCoin();
+            var.CoinRacks[2].ReleaseCoin();
         }
 
-        var temp2 = var.PopCanRacks;
-        temp2[value].DispensePopCan();
-        
-
-        var.CoinRacks[2].ReleaseCoin();
-        var.CoinRacks[2].ReleaseCoin();
     }
 
 
     public List<IDeliverable> ExtractFromDeliveryChute(int vmIndex) {
         // TODO: Implement
 
-       // VendingMachine var = vendingMachines[vmIndex];
-        //var temp = var.DeliveryChute;
-        //List<IDeliverable> temp2 = new List<IDeliverable>(temp.RemoveItems());
-        return new List<IDeliverable>();
-        //return temp2;
+       VendingMachine var = vendingMachines[vmIndex];
+        var temp = var.DeliveryChute;
+        List<IDeliverable> temp2 = new List<IDeliverable>(temp.RemoveItems());
+        //return new List<IDeliverable>();
+        return temp2;
 
     }
 
