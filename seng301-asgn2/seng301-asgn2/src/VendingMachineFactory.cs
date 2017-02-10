@@ -56,7 +56,9 @@ public class VendingMachineFactory : IVendingMachineFactory {
 
         var.CoinSlot.CoinAccepted += new EventHandler<CoinEventArgs>(temp.CoinAccepted);
         a.AddCoin(coin);
-               
+        var.CoinSlot.CoinAccepted -= new EventHandler<CoinEventArgs>(temp.CoinAccepted);
+
+
     }
 
     public void PressButton(int vmIndex, int value) {
@@ -66,16 +68,48 @@ public class VendingMachineFactory : IVendingMachineFactory {
 
         var.SelectionButtons[value].Pressed += new EventHandler(temp.printButtonPressed);
         var.SelectionButtons[value].Press();
+        var.SelectionButtons[value].Pressed -= new EventHandler(temp.printButtonPressed);
 
-        if(var.CoinReceptacle.Count != 0 && total >= var.PopCanCosts[value])
+
+        if (var.CoinReceptacle.Count != 0 && total >= var.PopCanCosts[value])
         {
-                
+
+            var changedNeeded = total - (var.PopCanCosts[value]);
+            var.CoinReceptacle.StoreCoins();
+
+
             var temp2 = var.PopCanRacks;
             temp2[value].DispensePopCan();
 
+            List<int> b = new List<int>();
+            int length = var.CoinRacks.Length;
+            
+            for(int i = 0; i < length; i++)
+            {
+                b.Add(var.GetCoinKindForCoinRack(i));
+            }
 
-            var.CoinRacks[2].ReleaseCoin();
-            var.CoinRacks[2].ReleaseCoin();
+            b.Sort();
+
+            for(int i = b.Count-1; i >=0; i--)
+            {
+                int jk = b[i];
+                while(changedNeeded % jk == 0 && changedNeeded != 0)
+                {
+                    var.GetCoinRackForCoinKind(jk).ReleaseCoin();
+
+                    changedNeeded -= jk;
+                }
+
+                if(changedNeeded % jk != 0 && changedNeeded > jk)
+                {
+                    var.GetCoinRackForCoinKind(jk).ReleaseCoin();
+                    changedNeeded -= jk;
+                }
+
+            }
+
+
         }
 
     }
@@ -84,7 +118,7 @@ public class VendingMachineFactory : IVendingMachineFactory {
     public List<IDeliverable> ExtractFromDeliveryChute(int vmIndex) {
         // TODO: Implement
 
-       VendingMachine var = vendingMachines[vmIndex];
+        VendingMachine var = vendingMachines[vmIndex];
         var temp = var.DeliveryChute;
         List<IDeliverable> temp2 = new List<IDeliverable>(temp.RemoveItems());
         //return new List<IDeliverable>();
