@@ -50,15 +50,13 @@ public class VendingMachineFactory : IVendingMachineFactory {
         VendingMachine var = vendingMachines[vmIndex];
         Events temp = new Events(var);
 
-        total += coin.Value;
         var a = var.CoinSlot;
-
 
         var.CoinSlot.CoinAccepted += new EventHandler<CoinEventArgs>(temp.CoinAccepted);
         a.AddCoin(coin);
         var.CoinSlot.CoinAccepted -= new EventHandler<CoinEventArgs>(temp.CoinAccepted);
 
-
+        total += coin.Value;
     }
 
     public void PressButton(int vmIndex, int value) {
@@ -114,6 +112,8 @@ public class VendingMachineFactory : IVendingMachineFactory {
 
 
         }
+
+        total = 0;
 
     }
 
