@@ -75,7 +75,10 @@ public class VendingMachineFactory : IVendingMachineFactory {
         {
 
             var changedNeeded = total - (var.PopCanCosts[value]);
+
+            var.CoinReceptacle.ReceptacleFull += new EventHandler(temp.CoinReceptacle_ReceptacleFull);
             var.CoinReceptacle.StoreCoins();
+            var.CoinReceptacle.ReceptacleFull -= new EventHandler(temp.CoinReceptacle_ReceptacleFull);
 
 
             var temp2 = var.PopCanRacks;
@@ -114,6 +117,10 @@ public class VendingMachineFactory : IVendingMachineFactory {
 
     }
 
+    private void CoinReceptacle_ReceptacleFull(object sender, EventArgs e)
+    {
+        throw new NotImplementedException();
+    }
 
     public List<IDeliverable> ExtractFromDeliveryChute(int vmIndex) {
         // TODO: Implement
@@ -130,7 +137,25 @@ public class VendingMachineFactory : IVendingMachineFactory {
         // TODO: Implement
 
         VendingMachine var = vendingMachines[vmIndex];
+        
+        VendingMachineStoredContents temp = new VendingMachineStoredContents();
 
-        return new VendingMachineStoredContents();
+        foreach(var i in var.CoinRacks)
+        {
+            temp.CoinsInCoinRacks.Add(i.Unload());
+        }
+        List<Coin> d = var.StorageBin.Unload();
+
+        foreach(Coin i in d)
+        {
+            temp.PaymentCoinsInStorageBin.Add(i);
+        }
+
+        foreach(var i in var.PopCanRacks)
+        {
+            temp.PopCansInPopCanRacks.Add(i.Unload());
+        }
+
+        return temp;
     }
 }

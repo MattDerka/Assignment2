@@ -15,4 +15,5 @@ INSERT([0] 100)
 PRESS([0] 0)
 EXTRACT([0])
 CHECK_DELIVERY(50, "Coke")
-
+UNLOAD([0])
+CHECK_TEARDOWN(315; 0; "water", "stuff")
