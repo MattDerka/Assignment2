@@ -25,12 +25,12 @@ namespace seng301_asgn2
         public void CoinAccepted(object sender, CoinEventArgs e)
         {
             Console.WriteLine("Coin Slot accepted coin");
-            a.CoinReceptacle.ReceptacleFull += CoinReceptacle_ReceptacleFull;
         }
 
         public void CoinReceptacle_ReceptacleFull(object sender, EventArgs e)
         {
-            //a.StorageBin.AcceptCoin();
+            Console.WriteLine("Coin Receptacle full, transfering to the storage bin");
+            a.StorageBin.StoreCoins();
         }
 
         public void printButtonPressed(object sender, EventArgs e)

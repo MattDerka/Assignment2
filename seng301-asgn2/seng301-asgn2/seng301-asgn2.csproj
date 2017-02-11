@@ -96,11 +96,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="test-scripts\T01-good-insert-and-press-exact-change" />
-    <None Include="test-scripts\T01-good-script" />
-    <None Include="test-scripts\T02-good-insert-and-press-change-expected" />
-    <None Include="test-scripts\T05-good-scrambled-coin-kinds" />
+    <None Include="test-scripts\T02-good-script-user entered in more than coin rack capacity" />
+    <None Include="test-scripts\T01-good-scrip-no coins inseted in racks at start" />
+    <None Include="test-scripts\T03-good-script" />
+    <None Include="test-scripts\T05-good-script-press-without-insert" />
+    <None Include="test-scripts\T04-good-script -teardown-without-configure-or-load" />
+    <None Include="test-scripts\T06-good-script-extract-before-sale" />
+    <None Include="test-scripts\T08-good-approximate-change" />
     <None Include="test-scripts\U01-bad-script1" />
+    <None Include="test-scripts\U03-bad-costs-list" />
     <None Include="test-scripts\U02-bad-script2" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -56,8 +56,10 @@ public class VendingMachineFactory : IVendingMachineFactory {
         a.AddCoin(coin);
         var.CoinSlot.CoinAccepted -= new EventHandler<CoinEventArgs>(temp.CoinAccepted);
 
+
         total += coin.Value;
     }
+
 
     public void PressButton(int vmIndex, int value) {
         // TODO: Implement
