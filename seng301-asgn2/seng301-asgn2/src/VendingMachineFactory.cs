@@ -57,7 +57,7 @@ public class VendingMachineFactory : IVendingMachineFactory {
         var.CoinSlot.CoinAccepted -= new EventHandler<CoinEventArgs>(temp.CoinAccepted);
 
 
-        total += coin.Value;
+        total += coin.Value; 
     }
 
 

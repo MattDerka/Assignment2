@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="3e60a06b-1f76-41c3-b5f8-483018af1575"
+  name="Frontend2"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="fcd6738e-1522-4b93-8cd4-fc62e8f55e3a"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DFrontend2"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="059b9fed-71fc-4353-8a32-1f5f89605a8f">
+      <profileInstance
+        Id="bcacc160-6c11-40d9-88a9-115f9f605fa9"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="2fe64b70-54b2-4960-b737-21f3169b9241"
+        LastKnownName="Hardware"
+        LastKnownLocation="Package2_0746.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="7747e408-47ca-4bd4-a37a-9428ff217f4a"
+        name="Coin"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="64745c4e-28e1-4aa0-a3dc-441a38aa515d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2 Type%3DCoin"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="56fb0b70-39ab-428b-92e8-19ffd719ed15"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d515d7e9-a46c-4131-aa1a-71985a1e4d11">
+                <propertyInstance
+                  Id="43fb6cbf-6e34-476a-a2ab-41662037575b"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6d5da3aa-657b-4ec7-980d-bb71c90fe923">
+                <propertyInstance
+                  Id="950e785c-acd0-446f-931c-c813a81c7a15"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0474987d-3d85-40af-ae20-c820a9bc2de2">
+                <propertyInstance
+                  Id="74bb0803-5efb-4704-933a-c67265be385c"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="05ae413c-e70e-4b78-b6ea-4fc1859ee950">
+                <propertyInstance
+                  Id="f2b404d4-9387-4ab3-bf26-2b8465723be1"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d46693b0-c377-473a-ad71-30a9f24db62a">
+                <propertyInstance
+                  Id="ba35aed3-c8b3-464e-b888-505f72fe3f0c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="0c5e79f8-5049-45ea-a918-bd471befbaae">
+            <interfaceMoniker
+              Id="46331f9e-c606-488a-b525-091ac69ab45c"
+              LastKnownName="IDeliverable"
+              LastKnownLocation="Package1_0746.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="46331f9e-c606-488a-b525-091ac69ab45c"
+        name="IDeliverable"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="5cd1464b-987a-47dc-b04f-4e6209a4cbe0"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2 Type%3DIDeliverable"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="0c5d9984-65e6-4883-a6cf-355e1050f1b4"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3035a4a1-57ee-474d-9756-7903b4130f07">
+                <propertyInstance
+                  Id="ce61339d-eadc-4b63-8f2c-f25b2df7bb9e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0b88f542-c261-4dc6-9d1d-047884cd943d">
+                <propertyInstance
+                  Id="441d20f6-59d1-4625-b500-fbfa6e745437"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="8db94e1a-fb67-4cf7-bd62-90d107c39b5b">
+                <propertyInstance
+                  Id="ee32b5d4-bd91-4203-82c0-b3a1a24bd25e"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e2aba156-0329-4634-8fee-add09997a57e">
+                <propertyInstance
+                  Id="53884ae6-5f28-4241-bad3-d7452aaa196e"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="cfbf3622-fedb-4345-a01f-a30aaa18be74"
+        name="PopCan"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="1b21c1a5-c414-4f53-933c-16d396006788"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2 Type%3DPopCan"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5980fa3d-7e78-4a1e-8438-7f642f7faaad"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c15d5979-9478-47af-808a-7ebe27d61c63">
+                <propertyInstance
+                  Id="1a009557-682a-40cf-8c65-0395053a419f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f04ae0f6-ef99-455f-a96d-531df1461c85">
+                <propertyInstance
+                  Id="82227cac-eb02-4bfc-9956-6c27e55e1c18"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="96e7ffce-c7ee-4a35-8488-dfdd08dae578">
+                <propertyInstance
+                  Id="9236233a-f135-41f8-a4ab-f9ab1bbac1c8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="043c23c8-9608-427a-9695-9844fe02ac6c">
+                <propertyInstance
+                  Id="41aa9d2b-7c26-4bcc-898b-63eac0c17ec9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3bd4b834-1c43-4e70-93e3-4a4f1188ba20">
+                <propertyInstance
+                  Id="74821b49-a7b8-4229-bd10-6455bee74a36"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="a963ffa3-df17-4555-b5cf-794b50dd659a">
+            <interfaceMoniker
+              Id="46331f9e-c606-488a-b525-091ac69ab45c"
+              LastKnownName="IDeliverable"
+              LastKnownLocation="Package1_0746.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="985f9724-7a72-407d-a732-d8113100838c"
+        name="IDeliverable"
+        visibility="Private"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="0d17aed9-7338-4f70-9a6b-5d0001cc93a0"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2 Type%3D(Name%3DIDeliverable ArrayRank%3D1 ParentType%3DIDeliverable)"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="a92b1c0e-cea7-49ce-be34-a39ede533355"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c271c34b-25d7-483d-9a77-ecacd62b1fcf">
+                <propertyInstance
+                  Id="4fa1de18-2840-4230-abc8-ff7740e8eb7a"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="584a616b-5afe-46d2-84f9-bf7c7b2d6342">
+                <propertyInstance
+                  Id="7fbdbba7-45c0-44d3-9bd8-cdcac775d226"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="028a26e5-5a06-4bf8-9555-bb6c650a133f">
+                <propertyInstance
+                  Id="c2edf7db-f1d6-4c70-a585-bcd9031878f8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a4ee5e7f-d88a-4c35-87c9-491d5f1f92e0">
+                <propertyInstance
+                  Id="cbb71a9b-e0c7-4bc9-be67-2c68d695f524"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9091459e-0ec2-41c7-a57e-a2e6452afc20">
+                <propertyInstance
+                  Id="50e53323-7d39-4348-8895-7afdf172d432"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="46713e48-a326-4108-9b52-27dd988ce9dd"
+        name="VendingMachineStoredContents"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="6dbdf7f3-f433-4c07-9d73-27aed35e6909"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2 Type%3DVendingMachineStoredContents"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="76c266b4-0c3b-45a8-a62a-e4d5ecf7bfbb"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7c8cde81-ecef-46e1-a115-6984449f0f11">
+                <propertyInstance
+                  Id="d33208ff-aa34-490b-9b7d-3fd07de600d3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4a4b21d4-f18f-496c-af3d-9816a4fc24ea">
+                <propertyInstance
+                  Id="faae6752-6d39-4e88-b063-a3262d987210"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="5e12c206-0654-410f-8a2f-0d6fb894254f">
+                <propertyInstance
+                  Id="aab4addd-fb2a-49b2-8126-56e854ac34ef"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1089f153-58a1-436a-a9a6-64add044b50a">
+                <propertyInstance
+                  Id="4d6d7f3c-cbae-4bca-bfeb-c8ac63b24048"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d1ec22d7-06d2-46f4-909b-1bf7ba247604">
+                <propertyInstance
+                  Id="a0b0b839-0016-47c0-bb55-363690247c26"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="bf902345-0a55-4a4b-9982-f54b0f910af7"
+        name="IVendingMachineFactory"
+        isAbstract="false"
+        isLeaf="false">
+        <referencesInternal>
+          <reference
+            Id="6dca2bd6-c4c6-4237-b0bd-e447b1ab2aec"
+            handle="viewcode://./CodeSchema_Interface?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2 Type%3DIVendingMachineFactory"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4e95306a-edec-4195-9456-2f2ece5d6043"
+            name="interface"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e2972490-0879-45fe-8cb6-818615f62126">
+                <propertyInstance
+                  Id="dc1da301-c203-4083-b47e-9dcb25687569"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="af1760d5-5d53-488d-b533-faa1cc4927a5">
+                <propertyInstance
+                  Id="8f3ca22e-6c79-4ec3-8197-e2098a6e2bf6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1262c96f-1d69-4a05-9267-af9e515fac8b">
+                <propertyInstance
+                  Id="8c7dbf24-0c0b-4118-99c1-b96d040ddea6"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a2c740dc-aae0-4f21-bc59-8991ecc957e0">
+                <propertyInstance
+                  Id="68da5b48-0f1f-4be8-a64f-d3a15831d0e7"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </Interface>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

@@ -1,0 +1,629 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="145bab8e-9741-41a4-a84f-ad47cada97b8"
+  name="seng301_asgn2"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="47ab87d3-b498-4dbd-a133-a299193e567c"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3Dseng301_asgn2"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="652a1d9d-d57a-4aa5-b066-7dc22dc7bd33">
+      <profileInstance
+        Id="36fb0cbf-2974-420e-ad5b-1666b951ce81"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="a19e3cbe-07f3-43f1-8cdd-1af83fda9c92"
+        name="Events"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="276dc63c-c503-4b4a-b1a8-406becd77626"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3Dseng301_asgn2 Type%3DEvents"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="12cc0555-931b-4f53-b497-78b94fc9f513"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f93fb582-8273-4793-b2cd-698c7572b92a">
+                <propertyInstance
+                  Id="282edaf4-c321-43ed-b9cf-4c28c1b70ce8"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e8ebb2c3-aedb-4c07-a6d9-d7e15e29aac1">
+                <propertyInstance
+                  Id="a242fb96-89e2-4b85-b05e-9ed3691f46b6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="78e114f5-9a20-48a7-9c60-371cb7a76928">
+                <propertyInstance
+                  Id="2b845e1b-9bbd-4d35-9694-a6ec489ebace"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2fad017a-d5d7-4a4a-a51d-425f14b91074">
+                <propertyInstance
+                  Id="a3d61062-4845-4458-9138-ba5610b0adaf"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="7efd2153-7a47-489d-9591-f77d509a50eb">
+                <propertyInstance
+                  Id="a3bdc698-271e-4685-8ae2-22b62b18aa1d"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="cd0de47c-dba7-4526-9baa-f9a44906707d"
+            isSubstitutable="false">
+            <classMoniker
+              Id="f814dc7d-f148-4f7e-b147-63c1439f325e"
+              LastKnownName="EventArgs"
+              LastKnownLocation="Package3_0746.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="4842b725-634a-48da-867e-2a8057c12dea"
+            name="a"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a4a49165-e710-4ca2-86a7-d9e44f3a64f5"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3Dseng301_asgn2 Type%3DEvents Member%3Da"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="da7f17ef-d57e-442e-afda-d82bf4987d82"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="47808c5e-886b-46df-93cb-5de67050139e">
+                    <propertyInstance
+                      Id="3108c556-8df2-43bf-8758-70f49b7b4a6c"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0fbebcf-d533-497c-a883-ba6c9f482915">
+                    <propertyInstance
+                      Id="0069af33-9955-44a3-91ee-8c6df4aa9e67"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="30290815-7950-4954-a3c2-9029d6714d9c">
+                    <propertyInstance
+                      Id="d0d49d29-67c4-4f8b-8afc-267d17afb9d7"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3adf7b14-1088-4359-bed8-0b78e32f4353">
+                    <propertyInstance
+                      Id="9876283c-e374-4d4e-8a3e-89b9dfc505e7"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ecb7309-e234-4d25-9e4c-49b13b5ae6c2">
+                    <propertyInstance
+                      Id="5c3ad6d8-b8ae-441a-ab5b-d69683b4ba5b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="9ca9bea8-c988-406d-a3d4-4fe2168f5804"
+                LastKnownName="VendingMachine"
+                LastKnownLocation="Package2_0746.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="9e8b4aa4-65e4-4045-8ed6-8e3013f42828"
+            name="Events"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a607a455-72e5-4904-b11c-ac1f1fdef3cd"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3Dseng301_asgn2 Type%3DEvents Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2.Hardware Type%3DVendingMachine)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7c438ef3-bea1-4354-82f3-901760494746"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="182e9ecb-4648-45dc-a008-390ccd5dea79">
+                    <propertyInstance
+                      Id="957989c1-94eb-4456-bd9b-5909c1c2c9d2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="160ab04e-f6fa-4b36-a36d-1f8f1323ef3c">
+                    <propertyInstance
+                      Id="d3a17db0-ff23-46dc-afb0-6e559f149681"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7aec5f7d-90c0-4c88-a159-96d56eeb5fa7">
+                    <propertyInstance
+                      Id="5aa33094-3143-4069-8104-a6770acfe518"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0754f46b-f80f-49f3-847f-71e8dc2ae24d">
+                    <propertyInstance
+                      Id="4441fba2-1bea-487c-8082-cb3b45ba6fec"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11659997-ec40-4301-87e2-a44c2df45f48">
+                    <propertyInstance
+                      Id="5b4a660c-1f20-405e-8110-3be766d5180a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="75d781c1-42ed-43e4-9e38-62b4b2e05ac8">
+                    <propertyInstance
+                      Id="d5598b17-dce7-44e8-ad51-aee7941809fe"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ae054dac-522d-4ab0-b766-f7015d321d55"
+                  name="a"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="635b076c-f4f5-4dbb-97e2-6b8e5afa853c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3Dseng301_asgn2 Type%3DEvents Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2.Hardware Type%3DVendingMachine)]) ParameterIdentifier%3Da"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="9ca9bea8-c988-406d-a3d4-4fe2168f5804"
+                      LastKnownName="VendingMachine"
+                      LastKnownLocation="Package2_0746.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0cbee10d-6d7c-444e-84a2-0a11b50b5187"
+            name="CoinAccepted"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5ff48541-bf99-4834-b01c-e78309d532fa"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3Dseng301_asgn2 Type%3DEvents Member%3D(Name%3DCoinAccepted OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2.Hardware Type%3DCoinEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="849dce15-4ce6-4b18-997f-b060452c7a1d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d590e81d-bfe4-47a9-b6c6-d3992a8a329d">
+                    <propertyInstance
+                      Id="16ec74ee-e941-4e82-ae37-c4a5e319928b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1daaff85-c946-4e1c-adcf-25439ecdfc3c">
+                    <propertyInstance
+                      Id="85edf37f-9e7c-4ead-85a4-0962e75b8a4f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7750f014-eadd-48f6-8753-ad4692fbc564">
+                    <propertyInstance
+                      Id="ea4ca7cb-fbf2-4abd-a1d8-3a87e8310714"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de86a1a1-e21c-488a-8898-931d65700fcb">
+                    <propertyInstance
+                      Id="e5bebd53-e464-455b-a5e8-a0d2a066b7c6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fec72694-a369-42e5-9ced-246bd4c07e35">
+                    <propertyInstance
+                      Id="c9f7652d-51d0-464b-9e20-3c555e5b5706"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74e3b5db-3d56-42f7-a298-92449adea2b1">
+                    <propertyInstance
+                      Id="098e2d2b-ddb5-4370-9de7-2a73bd081137"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1805462c-b978-41c2-b0e5-239d071d50a0"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="67252a8f-89db-4a8a-9b5f-5380f3ae734a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3Dseng301_asgn2 Type%3DEvents Member%3D(Name%3DCoinAccepted OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2.Hardware Type%3DCoinEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ee00454b-23ef-4353-baf3-477ac6a7fea7"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_0746.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="966ef2ec-ec3f-4fa2-9bd6-ff2f8fb6c780"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d0d1cc3f-4d96-4cac-bbbf-943c0bbce7a1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3Dseng301_asgn2 Type%3DEvents Member%3D(Name%3DCoinAccepted OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2.Hardware Type%3DCoinEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="43aac88a-360b-4042-965f-4a3b1268c8ed"
+                      LastKnownName="CoinEventArgs"
+                      LastKnownLocation="Package2_0746.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8058d650-61ac-48e1-b533-cd0db0beeded"
+            name="CoinReceptacle_ReceptacleFull"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="91ef751c-acec-43ce-be27-f21e3ee5d37e"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3Dseng301_asgn2 Type%3DEvents Member%3D(Name%3DCoinReceptacle_ReceptacleFull OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e5cd2049-cb98-479b-bc1d-2a6ae4635269"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="68210bfe-5d12-4a91-a363-588004faa820">
+                    <propertyInstance
+                      Id="d53342e1-844a-43f7-9a97-547a71fba009"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0dc6ba11-3fd1-4c50-ab85-353a4a8d58f3">
+                    <propertyInstance
+                      Id="56cfa91e-4830-438c-bb30-2c7f6c40ea13"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12d9a61d-2f3e-41eb-8727-57235f78d66b">
+                    <propertyInstance
+                      Id="19a0549f-88e8-4bbc-b1ce-ca566f4544fa"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0240580-3b45-48b4-b5f1-51dcbb1a30f1">
+                    <propertyInstance
+                      Id="0636c91f-23bd-4505-ab65-3d6e6f3b1dd4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9be037b-aa7a-4d80-a78f-d7cfe33c78a4">
+                    <propertyInstance
+                      Id="00addc0f-7ae6-4c7d-8745-b46eb9f36088"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d44dbc2-d37a-416f-a3b8-9264d59519f1">
+                    <propertyInstance
+                      Id="1a578d87-9071-4ff4-b7f2-b6ea48d60ea6"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b76e99f6-73bf-422d-a2a6-e37952b4c674"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="97242e2b-f75c-47b2-8647-e96b4315090f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3Dseng301_asgn2 Type%3DEvents Member%3D(Name%3DCoinReceptacle_ReceptacleFull OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ee00454b-23ef-4353-baf3-477ac6a7fea7"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_0746.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9423bab5-94cf-4726-929b-d8a5518f222b"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ef5044de-57d9-410b-8a92-4626ccee6ded"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3Dseng301_asgn2 Type%3DEvents Member%3D(Name%3DCoinReceptacle_ReceptacleFull OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f814dc7d-f148-4f7e-b147-63c1439f325e"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package3_0746.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2e090edf-5599-45b5-8b01-0d3de5fd4eb9"
+            name="printButtonPressed"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c20cbff0-d3e3-452f-98a8-5b8b33688bf3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3Dseng301_asgn2 Type%3DEvents Member%3D(Name%3DprintButtonPressed OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1a708b43-96e4-496f-b167-0929baa7ac73"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ed497fba-a1f0-46fc-b5ed-830567301043">
+                    <propertyInstance
+                      Id="50e326b7-b70f-4762-bbf4-43851eb5c256"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6835ca29-e95e-4e77-a3a8-8f964df4ae4b">
+                    <propertyInstance
+                      Id="4d8744db-72dd-469f-b396-1e8229c939c8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a016e421-f5bc-4772-84f2-1b9e9f674565">
+                    <propertyInstance
+                      Id="deaee03f-02e8-405d-8102-65d7d5e86f18"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aeba6736-308b-408d-b87c-9f6301935b20">
+                    <propertyInstance
+                      Id="ca3aa7b0-5633-450c-86ec-71d062192c7d"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="228cd1f2-c6a2-4ad8-8eb1-a356cb679aa9">
+                    <propertyInstance
+                      Id="6077505a-af62-4971-aa82-b33fccb467a1"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eda32bff-2419-45d7-b387-dff320450aab">
+                    <propertyInstance
+                      Id="f1eb0ae9-62d9-48eb-9c92-0531a4f6b6ac"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="64e2a391-cf54-42c0-9be9-de8e57ddfc3f"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c3a5df0d-d337-4e03-ad40-9c6dd77e0f8f"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3Dseng301_asgn2 Type%3DEvents Member%3D(Name%3DprintButtonPressed OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ee00454b-23ef-4353-baf3-477ac6a7fea7"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_0746.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="450aec10-2ad5-4c09-9ad0-0fa2e1f3f272"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="071dc291-8e2a-41a6-b379-e101e952c8b8"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3Dseng301_asgn2 Type%3DEvents Member%3D(Name%3DprintButtonPressed OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f814dc7d-f148-4f7e-b147-63c1439f325e"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package3_0746.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="481a4bcc-cb2f-4e95-9557-42a7f3a369a9"
+            name="Events"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="577c9ea4-69ad-4105-a63c-07f223c5e3d8"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3Dseng301_asgn2 Type%3DEvents Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="139cca42-bd4b-45f2-8938-49a2a3390537"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52b20c13-c560-42fa-8571-c3d5fc07d139">
+                    <propertyInstance
+                      Id="95a69355-5003-48f4-a5a3-e081afd4ecae"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e6e49ca-492e-408e-9bff-29c3dc0101cc">
+                    <propertyInstance
+                      Id="07d199eb-50bf-437e-8b8a-6f38b9033fcc"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7afd2386-e203-4d63-a20f-ffa65cfcb39b">
+                    <propertyInstance
+                      Id="f132e452-ad9b-453a-a702-159aa23f298f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="47acc921-c977-4b55-9b2d-5deab4ebcc01">
+                    <propertyInstance
+                      Id="30f16c73-a49c-4104-b32c-6278b463941f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eaaa364e-4a4d-45c3-aca7-bc9bb37efecd">
+                    <propertyInstance
+                      Id="3a6d2ee2-78b9-4092-9fa7-7641dd57128e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f795b811-e013-4026-b239-46ab9f5fe153">
+                    <propertyInstance
+                      Id="cc85e835-e76b-4b97-9ae2-873d8f6e82b9"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

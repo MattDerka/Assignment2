@@ -1,0 +1,1467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="c62f8d46-e777-4e9a-9eab-469b297597ca"
+  name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="9e6dd381-9367-42c7-9424-d8a7b5c35f12"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3D::"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="959e5e1e-df5c-4925-940e-b18b93bcfa22">
+      <profileInstance
+        Id="e736c935-bbe6-40d9-978d-7a4da55dee0b"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="145bab8e-9741-41a4-a84f-ad47cada97b8"
+        LastKnownName="seng301_asgn2"
+        LastKnownLocation="Package_0746.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="3e60a06b-1f76-41c3-b5f8-483018af1575"
+        LastKnownName="Frontend2"
+        LastKnownLocation="Package1_0746.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="1770a160-a7f5-4edd-9534-dfd75bcd189a"
+        LastKnownName="System"
+        LastKnownLocation="Package3_0746.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="bd9384f2-fca1-4847-8fbc-e096417edfa7"
+        name="VendingMachineFactory"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="bec7ab22-8e0e-4eb0-9f29-a7eb71cdbc2c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="522d4f54-9001-414d-9317-9f1cddf9e01c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0ca1a384-a00a-471f-a650-f4af697835c3">
+                <propertyInstance
+                  Id="7140dc99-4832-4628-8f73-9da699d23c25"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ab7e91d9-251a-455d-91ee-f6b9f6735f56">
+                <propertyInstance
+                  Id="d6253b1d-02c2-460f-9a7a-80bb345352d6"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="eda0ad52-d58a-41ac-9f60-717ff2207bf6">
+                <propertyInstance
+                  Id="e274d4f9-3e06-480e-b3b5-626c4d48aaba"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6995645e-d601-49ed-a065-0dcb587fc202">
+                <propertyInstance
+                  Id="073f6089-3b20-4b5a-ad58-69c55049b4ac"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c7274d96-ac3f-41fa-a340-7be284d88df9">
+                <propertyInstance
+                  Id="b1ed22c3-9919-4090-9f38-8411125a854b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <suppliersInternal>
+          <interfaceRealization
+            Id="79c270e8-5728-4129-82a2-4cced765caa6">
+            <interfaceMoniker
+              Id="bf902345-0a55-4a4b-9982-f54b0f910af7"
+              LastKnownName="IVendingMachineFactory"
+              LastKnownLocation="Package1_0746.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="7b88531d-6734-4011-8efb-430978a2baec"
+            name="counter"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="fe519303-bd87-4e1b-a5c0-b31907863a4e"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3Dcounter"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ee5896d9-d11e-426b-807d-7bdc7782df87"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86e7ac69-06df-4e3a-8069-89f2251a45d0">
+                    <propertyInstance
+                      Id="b77f4317-ac93-4ac1-9ddf-f25455407876"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="24bf5300-b50a-43a6-83bd-1ca6728fab52">
+                    <propertyInstance
+                      Id="9e2fab1f-4277-4f89-b708-a37e31be6669"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="644a2a0c-3297-4288-942f-de36886df8cb">
+                    <propertyInstance
+                      Id="48e6e5d3-351e-4f3e-a729-6c0d36a7096f"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2785f20b-d871-4b17-b066-7850e8777880">
+                    <propertyInstance
+                      Id="326afa0a-883d-4901-8439-3d81e7189d7d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff176f54-359c-4b22-8915-18d36961c43d">
+                    <propertyInstance
+                      Id="0732b5b8-cd0f-4d8e-8f2f-7a790a9714d7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="db07f54a-a1ed-4672-ac0e-41554631b802"
+            name="total"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f6638258-51b7-4802-8ccb-49777b5dd7a7"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3Dtotal"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4f0fb4ec-fa0b-4fde-b11b-e217be3564ee"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2f3e39c-be03-4168-9ba9-6cc101fd5299">
+                    <propertyInstance
+                      Id="ec0e0b24-e09e-45e0-aaff-2e3d4c5186b9"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6181549e-5818-43b2-bf84-badc8fc9e8dc">
+                    <propertyInstance
+                      Id="94ac4980-9201-4801-aee3-fe75405cd46b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a7e8a67-27ca-41a7-8dcc-1f807e2b3fd1">
+                    <propertyInstance
+                      Id="985a73ec-f930-4086-b90d-99d7312e630e"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f88fd78c-444b-4237-9015-aed793aba3d8">
+                    <propertyInstance
+                      Id="20b7c8ce-250f-43d5-aceb-ec8844b9c7cc"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11f46053-95c3-433c-9695-2cb843d1c1da">
+                    <propertyInstance
+                      Id="96c514f0-e7b1-4a2a-b5ed-f4071331fa65"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="ModelingProject1.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="8e17f179-611a-4c24-8117-bd0bc9cc55e0"
+            name="vendingMachines"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="06c82acc-be07-41c6-8115-47824848670a"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3DvendingMachines"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="36de783c-9456-4cdc-97ea-328e8316c8a9"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="334909b1-f23e-4bb2-8f12-150ea3e364cc">
+                    <propertyInstance
+                      Id="10da0120-896b-4b4e-9897-cf22ef87b042"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6bb730f-9045-429c-83b2-8017e3d0dad2">
+                    <propertyInstance
+                      Id="701585ca-32d4-49fb-8d31-e67ae46e9842"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b9170b82-1d75-4af5-8188-687181a16647">
+                    <propertyInstance
+                      Id="f0995128-fe01-441b-940b-31558872fdb2"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f17d38b7-109e-4440-b81b-205aacf32356">
+                    <propertyInstance
+                      Id="97d23da6-c03e-4b70-ae39-935c01f47346"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="93da677f-bb1c-4b77-bfe9-69dcd71348ab">
+                    <propertyInstance
+                      Id="95b64bd7-0c94-4c4f-b878-c343e49b2389"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="ae10d96e-a2b9-4948-901e-fba50257048e"
+                LastKnownName="List&lt;VendingMachine‎&gt;"
+                LastKnownLocation="Package1_0748.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="2c5fe649-82e0-4ee8-94de-5a3e2f96b1af"
+            name="CoinReceptacle_ReceptacleFull"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d64a29cb-6360-4f9d-8cd8-0a9ffaff0625"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DCoinReceptacle_ReceptacleFull OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b9bddbeb-b0bc-4330-8094-a89d18ca76ce"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d58116a0-92fd-4e8d-825a-fc3926f893eb">
+                    <propertyInstance
+                      Id="cf6c0e34-a2fe-49b2-86e6-9cd9d1ea7c8d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81a30475-0937-4109-887f-6fafd7ddb152">
+                    <propertyInstance
+                      Id="b7a9d114-c66e-474b-9fdf-fded270fce6a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d90630b-e415-4b95-801d-c00b04127482">
+                    <propertyInstance
+                      Id="67df9c84-c521-4874-ae76-09de0c2cec1a"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da464e8f-fc95-498c-b8af-87045175b1d9">
+                    <propertyInstance
+                      Id="8e74720f-2da5-4280-a10d-98558d3dc5f2"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d185e6c-a9d9-4083-85a3-1a7562dffaf8">
+                    <propertyInstance
+                      Id="a343d579-f88d-4248-8920-79b5fb464c44"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="afec4f50-92a6-4870-82b5-b0220de64462">
+                    <propertyInstance
+                      Id="289d954b-5464-4196-9156-736b7d7c37df"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bc3caac4-bc0f-4eb1-800a-ce5cf5d7638c"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7a37562f-6aae-4d6d-b534-c7901b4b97c7"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DCoinReceptacle_ReceptacleFull OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ee00454b-23ef-4353-baf3-477ac6a7fea7"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_0746.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="aa19a92a-f797-42e6-aa29-aae394cf8f87"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b4b2d4ca-e004-495a-98d7-833f4072d66b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DCoinReceptacle_ReceptacleFull OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="f814dc7d-f148-4f7e-b147-63c1439f325e"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package3_0746.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="5b334e3e-c4cc-498b-a2bb-49f55e37bd29"
+            name="ConfigureVendingMachine"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="38b943d2-634f-4b50-adf3-8f14148ed7f0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DConfigureVendingMachine OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4211de36-9b14-497c-8cbe-4ec66695501f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="560430a9-9fe2-45ae-b74c-59518b147937">
+                    <propertyInstance
+                      Id="25a31837-4b05-4f21-abf2-8a12a484a1c2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5cf446a4-fd27-4d06-b803-06ad4bab7be3">
+                    <propertyInstance
+                      Id="3ac1c76b-67b3-4a7d-90a1-5ad1075e78a3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9b1cb80f-0b20-479a-aa74-814be294eab8">
+                    <propertyInstance
+                      Id="038257f4-063a-4ca0-b19c-ff8a955bb06f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="540e258c-3efc-41bb-b7d9-d6c0b2ca0ebc">
+                    <propertyInstance
+                      Id="6425184b-17d9-440a-85af-aea706f4be57"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="befafcd7-78ab-45b2-8e94-9b025f6994fd">
+                    <propertyInstance
+                      Id="3df581e3-573a-4862-aeed-fd8696454f8d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="729525a9-bcba-44cf-aa12-96fc3cf6047e">
+                    <propertyInstance
+                      Id="84d0dd97-6ade-473a-8d43-29e1ac0bc07e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b936cd38-9f28-4f2e-9ff2-90a59e52cd83"
+                  name="vmIndex"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="845faa7a-6c03-42bd-a057-9f5f3738661c"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DConfigureVendingMachine OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]))]) ParameterIdentifier%3DvmIndex"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="eb2372fb-c3f8-4142-9d5f-d8a7d49a4535"
+                  name="popNames"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="30bd84f4-3c16-4e5a-b708-b2de8edd8185"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DConfigureVendingMachine OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]))]) ParameterIdentifier%3DpopNames"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c0fcac6a-16c4-4f16-9ada-ca6c5f64d80c"
+                      LastKnownName="List&lt;String‎&gt;"
+                      LastKnownLocation="Package1_0748.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="78f4d16f-7115-47f8-b1ec-adcb401502a7"
+                  name="popCosts"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b59d067d-b229-4006-bc0c-6ed7a79d0fff"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DConfigureVendingMachine OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]))]) ParameterIdentifier%3DpopCosts"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="91c45cab-22f8-42b4-b8f9-9d0c55f4ebc2"
+                      LastKnownName="List&lt;Int32‎&gt;"
+                      LastKnownLocation="Package1_0748.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b447c62f-a163-4360-ac29-e36043c4c54c"
+            name="CreateVendingMachine"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4109eb63-8fc3-44b9-b185-4574e7368fbf"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DCreateVendingMachine OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2cb62faf-2b7c-44ae-8ed4-f04477ed9e3f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="532fcaf8-ddb5-407e-9bbe-717bcbd51cf1">
+                    <propertyInstance
+                      Id="95a84416-67e9-400d-983e-dd2a60fda439"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d72f5978-06d7-4983-a353-34f997295a52">
+                    <propertyInstance
+                      Id="9125de12-b0f7-4c90-b8b8-6a7628a66aed"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ff1b11d0-c6e2-48be-8e3e-56a1447e01ad">
+                    <propertyInstance
+                      Id="2136a6b8-89d6-4ac4-970c-ed47ea305bc0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94eb5f18-b791-442b-a444-11a19d4e3286">
+                    <propertyInstance
+                      Id="39a03ed6-c7a1-455c-afd4-9e2e8de28a1c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3984dc47-9cfe-41b2-9f6d-ad9775b62867">
+                    <propertyInstance
+                      Id="313e4890-5c36-4e9b-8a65-9659cbe99de2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cf75866a-5176-4f8c-8fec-1ca3ce3c91e9">
+                    <propertyInstance
+                      Id="725fe928-3243-4987-be6d-e3c587bf39d8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b87690ba-789f-4295-853f-2996a69b55e1"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="040fc8cc-1dd3-4688-84ee-d9fb040e3f4c"
+                  name="coinKinds"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0e966552-ad9a-457c-963c-1a4e9f53b676"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DCreateVendingMachine OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DcoinKinds"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="91c45cab-22f8-42b4-b8f9-9d0c55f4ebc2"
+                      LastKnownName="List&lt;Int32‎&gt;"
+                      LastKnownLocation="Package1_0748.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7fd92e64-c6ef-414e-afa9-c01f72d328e6"
+                  name="selectionButtonCount"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="2f0a1757-e8c3-4189-a597-b639d7c7fd97"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DCreateVendingMachine OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DselectionButtonCount"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="99a7e50d-f2ee-4183-a780-633af3e5e6be"
+                  name="coinRackCapacity"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4e5fdf99-1f66-47ca-b6ff-0ad741044c3e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DCreateVendingMachine OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DcoinRackCapacity"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="003a20cf-c7d6-4e38-a3f2-1f3a284855f2"
+                  name="popRackCapcity"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="11e01513-c9c3-4054-9049-dd8384ff0c1a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DCreateVendingMachine OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DpopRackCapcity"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="179adb18-4ea9-4a96-9e39-a63d098bca65"
+                  name="receptacleCapacity"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ed2da4c1-8657-46d5-ab24-339d7b70bc61"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DCreateVendingMachine OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]))%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DreceptacleCapacity"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b2d75ca3-12b5-473b-b098-33eeafeb882c"
+            name="ExtractFromDeliveryChute"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d7d2ee92-2f25-4f3a-925c-539a9c63685f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DExtractFromDeliveryChute OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dd46c63d-59f7-4c71-a41c-8d6483f1d9c8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8c07f4fa-e6cc-48cb-ad32-fa4ee0dde49f">
+                    <propertyInstance
+                      Id="89d15e46-65c7-4810-b86e-85b4c50f404e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3d448106-e968-4d35-b1c5-4a2a5bc61d6e">
+                    <propertyInstance
+                      Id="fa0fb1da-c037-40b3-9d27-390a604ae216"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="621372ad-e0dc-4c28-81d0-318ce27c092d">
+                    <propertyInstance
+                      Id="a46cc0b4-940b-4154-8f13-a0d8a8723823"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29c15ddd-9b7f-42c9-bed9-77062545e85e">
+                    <propertyInstance
+                      Id="318a7b0d-8b43-425a-bdcd-07890ea632a8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="397a8110-79cd-4f6b-adef-1899b61b7820">
+                    <propertyInstance
+                      Id="ef32da67-318d-42d2-b076-3c2957de5663"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74ee6cc6-09c7-43a3-8af3-84ce557ad4e0">
+                    <propertyInstance
+                      Id="0bb047b0-1fcb-439c-a307-7fa83b6d44b4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e42def1e-602a-481d-906f-235809959f2b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="3317914c-feff-48e4-9cb7-2ce31e563165"
+                      LastKnownName="List&lt;IDeliverable‎&gt;"
+                      LastKnownLocation="Package1_0748.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0dd0c65f-f50a-461b-8569-1ee74db58ca3"
+                  name="vmIndex"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5db1b02d-bfc1-4532-a5eb-74daf5a1c3f2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DExtractFromDeliveryChute OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DvmIndex"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="4146c54c-658d-41c8-baf6-c3776173d40d"
+            name="InsertCoin"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="dd47569f-f272-4614-b6da-82df20508cfe"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DInsertCoin OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2 Type%3DCoin)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="348f8d51-e0ef-45bf-98ef-58aaef89ae77"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3c40f8dd-9426-4966-998c-e007a8331961">
+                    <propertyInstance
+                      Id="87996be4-712c-41ee-9538-fa458cfdcbab"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50b0bb9a-4a6a-4109-b082-44208d8013e2">
+                    <propertyInstance
+                      Id="8fdc78f2-9e21-4197-acd4-5f04e98dc1cd"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4414225d-66c7-42f9-83ad-65086b9d1e39">
+                    <propertyInstance
+                      Id="ceb515fc-c580-4e83-ab89-1c9ea5dae5b3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a8c1343-d2a3-4a69-ac02-7ce56f36684e">
+                    <propertyInstance
+                      Id="21ae8f28-44d2-4b75-bc1d-d01fc0eeefbc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3ca1c42d-d022-4f20-8292-b6786d25d690">
+                    <propertyInstance
+                      Id="3c632393-444c-4d39-ac09-5d179b164451"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38927970-b6d9-424e-b158-b6873dbcb404">
+                    <propertyInstance
+                      Id="ca6a3315-9982-450b-a98c-b51a25b3775a"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a46acda6-b9ce-4d5e-9f48-70870c77cae9"
+                  name="vmIndex"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="58e2ebf4-2738-43b8-bb64-32c14314ddbe"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DInsertCoin OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2 Type%3DCoin)]) ParameterIdentifier%3DvmIndex"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9c4b66a1-4ac4-43c2-9b73-ba7af171e6c5"
+                  name="coin"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="291401ed-7544-4ad7-850c-162b2d5ded0e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DInsertCoin OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2 Type%3DCoin)]) ParameterIdentifier%3Dcoin"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7747e408-47ca-4bd4-a37a-9428ff217f4a"
+                      LastKnownName="Coin"
+                      LastKnownLocation="Package1_0746.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="f08a5be2-184c-4ec3-9937-db941fd94854"
+            name="LoadCoins"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3b074d73-a6ac-4c99-9574-2e65dec08a88"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DLoadCoins OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2 Type%3DCoin)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e9381bbb-d20c-4ac9-97c7-99913fcde113"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4aa147da-6491-4779-9ac5-fc46ac4efedd">
+                    <propertyInstance
+                      Id="c0611ebc-43c2-4f2f-903e-84aa1705fa60"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a12868b-973b-4600-ad08-07ee44593275">
+                    <propertyInstance
+                      Id="917bd463-bc0c-4c79-9802-d1f125ce9182"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="407450a3-ed53-4704-b9d8-7fdd91ffc37f">
+                    <propertyInstance
+                      Id="2b6a5d5e-040a-46bd-9a77-c6cc0ff9c4f0"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4ef7f63-6077-4cfc-9ca5-8773786b9447">
+                    <propertyInstance
+                      Id="6fbcad4c-2aed-4e39-9cb4-e2276bd15130"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86814f9b-cbed-48fb-b063-061f07a8d9bd">
+                    <propertyInstance
+                      Id="f392d268-fc83-4ac5-b4ef-8474589adf63"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a7817786-030e-4663-864a-5027d8982815">
+                    <propertyInstance
+                      Id="039fbbda-5446-4cc5-be83-ac6887bb7156"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f1b3ac00-7a3e-4a6f-b35d-f8c2a518c78c"
+                  name="vmIndex"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c31bdee8-3929-4eca-9dcd-f2b941bd58c1"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DLoadCoins OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2 Type%3DCoin)]))]) ParameterIdentifier%3DvmIndex"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="34c72ac5-21ad-4efa-b82e-2d3c4cda468a"
+                  name="coinKindIndex"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a6c8d79c-cd7a-41ea-a36b-ea4fef06f8d9"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DLoadCoins OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2 Type%3DCoin)]))]) ParameterIdentifier%3DcoinKindIndex"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="26a3e72a-8df1-4f30-a5e1-ae1e4710feb0"
+                  name="coins"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="0c9a8149-bd7c-4a03-8f45-9e1085efcd34"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DLoadCoins OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2 Type%3DCoin)]))]) ParameterIdentifier%3Dcoins"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a05a9a13-ea4b-4511-83d2-472f3290204e"
+                      LastKnownName="List&lt;Coin‎&gt;"
+                      LastKnownLocation="Package1_0748.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="aff59712-44b1-46e5-bb6b-610592c77906"
+            name="LoadPops"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="e1dbbe5f-0b44-4915-b7dd-767b5647331d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DLoadPops OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2 Type%3DPopCan)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="136573e5-ca84-45c4-a495-09fbc3edf3ef"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0a9ea5ec-b930-429e-8055-ca0f16228dad">
+                    <propertyInstance
+                      Id="031e962c-2eed-4b36-9b01-b496485a5770"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23909088-80f0-4ef7-b414-9d99e27d4347">
+                    <propertyInstance
+                      Id="c5b81e09-96b6-4b41-aa14-9681be8f3171"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb84493d-6c28-47f0-80b8-fb0e832f9160">
+                    <propertyInstance
+                      Id="00f9135b-2249-4760-bd6a-6f2a259f38ea"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e285d3cb-5764-4225-bd2a-26184832f9d4">
+                    <propertyInstance
+                      Id="0ab240e1-402b-4f74-a74d-2fb06c5fe2bd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="428f2e8f-b2e4-49d2-a550-348c306a1a17">
+                    <propertyInstance
+                      Id="ac812646-3232-44b0-9578-d6150878db7b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bdb7dd7f-95e1-456b-8db4-c680373bad6b">
+                    <propertyInstance
+                      Id="747d02ac-2f6e-4a7d-a72f-9a3bdb7af86b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4ca7f146-a72b-464e-a383-82f3e38550d9"
+                  name="vmIndex"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1e25b645-ef6c-45fa-b2ae-0c9fb48c2daf"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DLoadPops OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2 Type%3DPopCan)]))]) ParameterIdentifier%3DvmIndex"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="58ba3011-380a-42cd-9494-46fe19ce1cbe"
+                  name="popKindIndex"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8ff694e8-3124-425b-8632-8336ff69c4ac"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DLoadPops OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2 Type%3DPopCan)]))]) ParameterIdentifier%3DpopKindIndex"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="db391556-04ca-4395-a8ce-bac26ef9fd1f"
+                  name="pops"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4de3a404-de90-4988-aaeb-e89ba32636b2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DLoadPops OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DList GenericParameterCount%3D1 GenericArguments%3D[(Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Namespace%3DFrontend2 Type%3DPopCan)]))]) ParameterIdentifier%3Dpops"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="7e846371-c05e-4b90-9842-cdcd7359171c"
+                      LastKnownName="List&lt;PopCan‎&gt;"
+                      LastKnownLocation="Package1_0748.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e69b406a-4c5e-4927-8d6d-5f39c317b015"
+            name="PressButton"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="cc80b6ef-32ad-4230-8e29-485ea115eb52"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DPressButton OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6928853a-dcf9-4b2e-843c-294753ac7273"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1529aed5-022d-4072-8451-4adc09d4a6db">
+                    <propertyInstance
+                      Id="d0ff33b1-25d3-4095-8cdb-6b6d64b1036a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1289a604-2dd1-4a31-9787-324673c93fd0">
+                    <propertyInstance
+                      Id="9ea547b3-3d9c-426f-a5a6-49fbce68b090"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d8a6fa6-1cde-494f-a3cf-ec2b1940c421">
+                    <propertyInstance
+                      Id="a0f45162-0e97-470c-8a20-7dc5eebf4681"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d6d62dff-162e-4d1e-8d83-a95db739668a">
+                    <propertyInstance
+                      Id="1d626791-c1dc-4ffe-8ad4-a882401cc879"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ef0e79a8-08aa-43d1-846d-ef642f25d5e0">
+                    <propertyInstance
+                      Id="d9e8a4e5-684a-4ccd-af4c-ff585b838faa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4949abc3-8d78-47cd-8980-92b3b016e46a">
+                    <propertyInstance
+                      Id="e68195c8-5a5c-422d-95ce-a325456dd148"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ea65f53e-a95c-47d2-9884-c310a51f8a67"
+                  name="vmIndex"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5ceafde3-9a87-46d8-88f1-00eac8e93689"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DPressButton OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DvmIndex"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5cb96cee-5ee3-43c3-8e49-dc424c13e741"
+                  name="value"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5e5489b9-7c14-467d-8c3a-1c3435889a15"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DPressButton OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3Dvalue"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="6c63f6f0-3a3f-42e3-b800-fbcf6467c592"
+            name="UnloadVendingMachine"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="af3b2ac6-efe2-4306-bfcf-286d75adc8ab"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DUnloadVendingMachine OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="cd220d1e-dd88-4e96-a874-8e54676f0e8b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="38292d47-1b0d-4814-b350-ce0fd17acecc">
+                    <propertyInstance
+                      Id="43533d4e-01c6-430c-aa34-149d00fbccac"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="14914fc4-3b1e-444e-b558-d67266c71276">
+                    <propertyInstance
+                      Id="bf177c0b-1a7f-41bc-83f5-9355e1fc9dad"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c67c40aa-43b1-4f07-a919-6291f33981ef">
+                    <propertyInstance
+                      Id="e9846fe0-14e3-4317-8796-d490530b2e6f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e538ddb4-bab7-48db-8705-ae434a3d7830">
+                    <propertyInstance
+                      Id="3342ade5-a6e3-45e3-ab2d-2b6597a61a1f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6089946f-6f4a-4ccc-bc62-aeec59acf16d">
+                    <propertyInstance
+                      Id="a01c4dfd-20a8-4eab-8aef-e7058b4f2b3d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f2d6a0e5-b4d6-423a-9d35-6645c7e12c21">
+                    <propertyInstance
+                      Id="87529b8a-c38e-4544-b104-0ebadedcf4d2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8baa4bd2-5e9a-445f-a7aa-f2aacb937e5a"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="46713e48-a326-4108-9b52-27dd988ce9dd"
+                      LastKnownName="VendingMachineStoredContents"
+                      LastKnownLocation="Package1_0746.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="85f8c431-2fa2-44fb-bd6f-8eee1608b24e"
+                  name="vmIndex"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="20417d4f-55b4-4fcb-bbaf-ad6ca865986a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D(Name%3DUnloadVendingMachine OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5.2%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DInt32)]) ParameterIdentifier%3DvmIndex"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProject1.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="fe92c410-7773-40b2-aadd-bdff1f5e3346"
+            name="VendingMachineFactory"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="acfd5ed1-ef33-48cc-b4dc-81d0400f88ab"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2FUsers%2FMatthew%2FSource%2FRepos%2FAssignment2%2Fseng301-asgn2%2Fseng301-asgn2%2Fbin%2FDebug%2Fseng301-asgn2.exe Type%3DVendingMachineFactory Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d8f87843-273b-443e-8ed3-8e4c2c52bf38"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="95a6c5e0-fa13-4a8d-92ad-7a69613ce783">
+                    <propertyInstance
+                      Id="5ecbabb2-d997-46e6-9889-50e7c6538007"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2299ec05-7885-4336-b8e2-3a2f66880a66">
+                    <propertyInstance
+                      Id="c3097946-fec7-4967-b773-9167592dd455"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="893f55c6-2df5-4a38-b8df-304bf1b5a067">
+                    <propertyInstance
+                      Id="ab0d8fc8-6b12-4e80-9062-7b0c53a55518"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c191597c-c8f8-4ac4-93b8-44d72bc77b0d">
+                    <propertyInstance
+                      Id="bbb4aee2-c026-418b-b694-05722a9454bc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8624a186-b15b-4a94-834b-f68a7c56dd8c">
+                    <propertyInstance
+                      Id="ab371699-1b5b-411d-a6cf-03e9ebc14eba"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c427929b-973e-40a2-8af3-3e4d6c8d2b0e">
+                    <propertyInstance
+                      Id="d5666730-f604-4712-bf41-7a8ba289d3e5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

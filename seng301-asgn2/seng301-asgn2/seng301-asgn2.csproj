@@ -96,16 +96,38 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="test-scripts\T02-good-script-user entered in more than coin rack capacity" />
-    <None Include="test-scripts\T01-good-scrip-no coins inseted in racks at start" />
-    <None Include="test-scripts\T03-good-script" />
-    <None Include="test-scripts\T05-good-script-press-without-insert" />
-    <None Include="test-scripts\T04-good-script -teardown-without-configure-or-load" />
-    <None Include="test-scripts\T06-good-script-extract-before-sale" />
+    <None Include="ClassDiagram-Assignment2.cd" />
+    <None Include="ClassDiagramAssignment2.cd" />
+    <None Include="scripts\T01-good-scrip-no coins inseted in racks at start" />
+    <None Include="scripts\T02-good-script-user entered in more than coin rack capacity" />
+    <None Include="scripts\T03-good-script" />
+    <None Include="scripts\T04-good-script -teardown-without-configure-or-load" />
+    <None Include="scripts\T05-good-script-press-without-insert" />
+    <None Include="scripts\T06-good-script-extract-before-sale" />
+    <None Include="scripts\T08-good-approximate-change" />
+    <None Include="scripts\U01-bad-script1" />
+    <None Include="scripts\U02-bad-script2" />
+    <None Include="scripts\U03-bad-costs-list" />
+    <None Include="test-scripts\T01-good-insert-and-press-exact-change" />
+    <None Include="test-scripts\T02-good-insert-and-press-change-expected" />
+    <None Include="test-scripts\T03-good-teardown-without-configure-or-load" />
+    <None Include="test-scripts\T04-good-press-without-insert" />
+    <None Include="test-scripts\T05-good-scrambled-coin-kinds" />
+    <None Include="test-scripts\T06-good-extract-before-sale" />
+    <None Include="test-scripts\T07-good-changing-configuration" />
     <None Include="test-scripts\T08-good-approximate-change" />
-    <None Include="test-scripts\U01-bad-script1" />
-    <None Include="test-scripts\U03-bad-costs-list" />
-    <None Include="test-scripts\U02-bad-script2" />
+    <None Include="test-scripts\T09-good-hard-for-change" />
+    <None Include="test-scripts\T10-good-invalid-coin" />
+    <None Include="test-scripts\T11-good-extract-before-sale-complex" />
+    <None Include="test-scripts\T12-good-approximate-change-with-credit" />
+    <None Include="test-scripts\U01-bad-configure-before-construct" />
+    <None Include="test-scripts\U02-bad-costs-list" />
+    <None Include="test-scripts\U03-bad-names-list" />
+    <None Include="test-scripts\U04-bad-non-unique-denomination" />
+    <None Include="test-scripts\U05-bad-coin-kind" />
+    <None Include="test-scripts\U06-bad-button-number" />
+    <None Include="test-scripts\U07-bad-button-number-2" />
+    <None Include="test-scripts\U08-bad-button-number-3" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
